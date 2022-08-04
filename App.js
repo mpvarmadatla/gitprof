@@ -1,10 +1,9 @@
 import React from'react';
-import { Text,View } from 'react-native';
+import { Text,View,StyleSheet } from 'react-native';
+import GitHomeComponent from './src/components/GitHomeComponent';
 
 const App = () =>{
-  return (<View>
-     <Text>GitProf</Text>
-  </View>)
+  return <GitHomeComponent />
 }
 
 
